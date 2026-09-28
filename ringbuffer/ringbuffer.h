@@ -12,7 +12,7 @@ typedef enum
 } RingBuffer;
 
 void ringbuffer_init();
-void rb_push(uint8_t head);
-void rb_pop(uint8_t tail);
+void rb_write(uint8_t head);
+void rb_read(uint8_t tail);
 
 #endif
